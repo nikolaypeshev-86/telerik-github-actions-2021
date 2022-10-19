@@ -1,11 +1,6 @@
 name: nik
-on:
-  push:
-    branches:
-      - main 
-    paths:
-    - 'factorial.py'
-    - 'lint_test.py'
+on: [ push ]
+
 jobs:
   integration-test:
     runs-on: ubuntu-latest
