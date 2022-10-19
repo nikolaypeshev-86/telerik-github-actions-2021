@@ -1,7 +1,7 @@
 name: pylinter
 on:
   push:
-    branches: [ main ]
+    branches: [main]
     paths:
     - 'factorial.py'
     - 'lint_test.py'
