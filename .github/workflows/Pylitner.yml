@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Test information:
-       run: echo "The name of the branch is ${{ github.ref }}"
+        run: echo "The name of the branch is ${{ github.ref }}"
       - name: Check out repostitory code
         uses: actions/checkout@v2
         run: echo "The ${{ github.repository }} has been cloned to the runner"
