@@ -4,8 +4,8 @@ on:
   push:
     branches: [ adding-actions ]
     paths:
-    - 'factorial.py'
-    - 'lint_test.py'
+      - 'factorial.py'
+      - 'lint_test.py'
 
 jobs:
   build:
