@@ -1,4 +1,4 @@
-name: pylinter
+name: nik
 on:
   push:
     paths:
