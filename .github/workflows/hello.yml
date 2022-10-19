@@ -6,5 +6,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - run: echo "This job was automatically triggered by a ${{github.event_name}} event."
+      - run: echo "OS of the runner is ${{ runner.os }}"
       - run: pwd
       - run: ls -la
