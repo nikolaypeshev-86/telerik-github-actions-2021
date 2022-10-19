@@ -1,10 +1,12 @@
 name: pylinter
+
 on:
   push:
     branches: [ main ]
     paths:
     - 'factorial.py'
     - 'lint_test.py'
+    
 jobs:
   lint:
     runs-on: ubuntu-latest
